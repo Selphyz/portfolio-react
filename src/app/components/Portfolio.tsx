@@ -4,7 +4,7 @@ import { Box, Grid, CardActionArea, CardMedia, CardContent, Typography, CardActi
 import project1 from '../images/TypeScript.svg';
 import project2 from '../images/Graphql.svg';
 import project3 from '../images/React y Redux.svg';
-import project4 from '../images/Mern Stack.svg';
+import project4 from '../images/Covid Graphs.svg';
 const useStyles = makeStyles({
   mainContainer: {
     height: '100%',
@@ -105,19 +105,23 @@ const Portfolio = () => {
               <CardMedia component="img" alt="Projecto1" height="140" image={project4}></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 1
+                  Proyecto Gráficas Covid19
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id excepturi modi quia consequuntur ipsa corporis explicabo enim ipsum
-                  fuga, voluptate corrupti mollitia et expedita deleniti dolores quas vero molestias eaque.
+                  Un proyecto de gráficas estadísticas sobre la pandemia del sars-coronavirus-2. Tiene gráfico histórico global y gráficas del país
+                  seleccionado. Los datos solo son fiables como la API seleccionada y he tenido que adaptar parte del proyecto a los datos de esa API.
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
-                  Compartir
+                  <Link href="https://github.com/Selphyz/material-ui-covid19" target="_blank">
+                    Código Fuente
+                  </Link>
                 </Button>
                 <Button size="small" color="primary">
-                  Compartir
+                  <Link href="https://react-corona.netlify.app/" target="_blank">
+                    Demo
+                  </Link>
                 </Button>
               </CardActions>
             </CardActionArea>
