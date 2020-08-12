@@ -112,44 +112,46 @@ const Curriculum = () => {
         </Typography>
         <Box component="div" className={classes.timeLine}>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2015
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Reparación de ordenadores
+              Operación de Sistemas Informáticos
             </Typography>
-            <Typography variant="body1">Central PC</Typography>
-            <Typography variant="subtitle1">Reparación y mantenimiento de ordenadores.</Typography>
+            <Typography variant="body1">Cepyme</Typography>
+            <Typography variant="subtitle1">
+              Reparación y mantenimiento de ordenadores. Encriptación, seguridad, sistemas operativos y servidores.
+            </Typography>
           </Box>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2017
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Reparación de ordenadores
+              Diseño y publicación de páginas web
             </Typography>
-            <Typography variant="body1">Central PC</Typography>
-            <Typography variant="subtitle1">Reparación y mantenimiento de ordenadores.</Typography>
+            <Typography variant="body1">System Zaragoza</Typography>
+            <Typography variant="subtitle1">Diseño, Javascript, usabilidad, accesibilidad y SEO en buscadores.</Typography>
           </Box>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2018
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Reparación de ordenadores
+              Programación con Tecnologías Web
             </Typography>
-            <Typography variant="body1">Central PC</Typography>
-            <Typography variant="subtitle1">Reparación y mantenimiento de ordenadores.</Typography>
+            <Typography variant="body1">System Zaragoza</Typography>
+            <Typography variant="subtitle1">Páginas dinámicas con php y Jquery.</Typography>
           </Box>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2020
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Reparación de ordenadores
+              Aplicaciones Móviles Híbridas y Páginas Web con Java
             </Typography>
-            <Typography variant="body1">Central PC</Typography>
-            <Typography variant="subtitle1">Reparación y mantenimiento de ordenadores.</Typography>
+            <Typography variant="body1">Clúster Idia</Typography>
+            <Typography variant="subtitle1">Aplicaciones móviles usando javascript con Ionic, por otro lado APIs REST con Spring Boot</Typography>
           </Box>
         </Box>
       </Box>
