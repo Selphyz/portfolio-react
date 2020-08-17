@@ -101,7 +101,7 @@ const Navbar = () => {
               <ArrowBack style={{ color: 'tomato' }} />
             </IconButton>
             <Typography variant="h5" style={{ color: 'tan' }}>
-              Portfolio
+              Navegación, pulsa la flecha
             </Typography>
             <Drawer anchor="right" open={state.right} onClose={toggleSlider('right', false)}>
               {sideList('right')}
