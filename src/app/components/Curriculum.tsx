@@ -92,13 +92,16 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   heading: {
     color: 'tomato',
-    padding: '3rem 0',
+    padding: '5rem 0',
     textTransform: 'uppercase',
   },
   subHeading: {
-    color: 'white',
+    color: 'azure',
     padding: '0',
     textTransform: 'uppercase',
+  },
+  content: {
+    color: 'azure',
   },
 }));
 const Curriculum = () => {
@@ -118,8 +121,10 @@ const Curriculum = () => {
             <Typography variant="h5" className={classes.subHeading}>
               Operación de Sistemas Informáticos
             </Typography>
-            <Typography variant="body1">Cepyme</Typography>
-            <Typography variant="subtitle1">
+            <Typography variant="body1" className={classes.content}>
+              Cepyme
+            </Typography>
+            <Typography variant="subtitle1" className={classes.content}>
               Reparación y mantenimiento de ordenadores. Encriptación, seguridad, sistemas operativos y servidores.
             </Typography>
           </Box>
@@ -130,8 +135,12 @@ const Curriculum = () => {
             <Typography variant="h5" className={classes.subHeading}>
               Diseño y publicación de páginas web
             </Typography>
-            <Typography variant="body1">System Zaragoza</Typography>
-            <Typography variant="subtitle1">Diseño, Javascript, usabilidad, accesibilidad y SEO en buscadores.</Typography>
+            <Typography variant="body1" className={classes.content}>
+              System Zaragoza
+            </Typography>
+            <Typography variant="subtitle1" className={classes.content}>
+              Diseño, Javascript, usabilidad, accesibilidad y SEO en buscadores.
+            </Typography>
           </Box>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
             2018
@@ -140,8 +149,12 @@ const Curriculum = () => {
             <Typography variant="h5" className={classes.subHeading}>
               Programación con Tecnologías Web
             </Typography>
-            <Typography variant="body1">System Zaragoza</Typography>
-            <Typography variant="subtitle1">Páginas dinámicas con php y Jquery.</Typography>
+            <Typography variant="body1" className={classes.content}>
+              System Zaragoza
+            </Typography>
+            <Typography variant="subtitle1" className={classes.content}>
+              Páginas dinámicas con php y Jquery.
+            </Typography>
           </Box>
           <Typography variant="h2" align="center" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
             2020
@@ -150,8 +163,12 @@ const Curriculum = () => {
             <Typography variant="h5" className={classes.subHeading}>
               Aplicaciones Móviles Híbridas y Páginas Web con Java
             </Typography>
-            <Typography variant="body1">Clúster Idia</Typography>
-            <Typography variant="subtitle1">Aplicaciones móviles usando javascript con Ionic, por otro lado APIs REST con Spring Boot</Typography>
+            <Typography variant="body1" className={classes.content}>
+              Clúster Idia
+            </Typography>
+            <Typography variant="subtitle1" className={classes.content}>
+              Aplicaciones móviles usando javascript con Ionic, por otro lado APIs REST con Spring Boot
+            </Typography>
           </Box>
         </Box>
       </Box>
