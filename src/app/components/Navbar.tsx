@@ -108,7 +108,7 @@ const Navbar = () => {
             </Drawer>
             <Container className={classes.wrapperContainer}>
               <List>
-                <Hlink href="https://www.linkedin.com/in/carlos-dominguez-puig-4378a9144/" target="_blank" rel="noopener noreferrer">
+                <Hlink href="https://www.linkedin.com/in/carlos-dominguez-puig/" target="_blank" rel="noopener noreferrer">
                   <LinkedIn className={classes.socialNetwork} />
                 </Hlink>
                 <Hlink href="https://github.com/Selphyz" target="_blank" rel="noopener noreferrer">
