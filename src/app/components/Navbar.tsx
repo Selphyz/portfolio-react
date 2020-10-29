@@ -17,7 +17,7 @@ import {
   Link as Hlink,
   Container,
 } from '@material-ui/core';
-import { ArrowBack, Home, Apps, AssignmentInd, LinkedIn, GitHub } from '@material-ui/icons';
+import { Home, Apps, AssignmentInd, LinkedIn, GitHub, Menu } from '@material-ui/icons';
 import avatar from '../images/myAvatar.svg';
 import { Link } from 'react-router-dom';
 
@@ -98,10 +98,10 @@ const Navbar = () => {
         <AppBar position="fixed" style={{ background: '#222' }}>
           <Toolbar>
             <IconButton onClick={toggleSlider('right', true)}>
-              <ArrowBack style={{ color: 'tomato' }} />
+              <Menu style={{ color: 'tomato' }} />
             </IconButton>
             <Typography variant="h5" style={{ color: 'tan' }}>
-              Navegación, pulsa la flecha
+              Menu
             </Typography>
             <Drawer anchor="right" open={state.right} onClose={toggleSlider('right', false)}>
               {sideList('right')}
