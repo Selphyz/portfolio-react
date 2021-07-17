@@ -54,16 +54,15 @@ const Portfolio = () => {
               <CardMedia component="img" alt="Projecto2" height="140" image={project2}></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Proyecto API Graphql
+                  Proyecto API Golang
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Es un proyecto de una API Graphql en Node, Typescript y con el ORM Typeorm, faltan algunos detalles que me gustaría añadir, asi que
-                  no la he desplegado todavia.
+                  Es un proyecto fullstack de React y Typescript con una API REST programada con Golang.
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
-                  <Link href="https://github.com/Selphyz/typegraphql-base" target="_blank">
+                  <Link href="https://github.com/Selphyz/golang-fiber" target="_blank">
                     Código Fuente
                   </Link>
                 </Button>
@@ -77,16 +76,15 @@ const Portfolio = () => {
               <CardMedia component="img" alt="Projecto1" height="140" image={project3}></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Tienda React y Redux
+                  Visualizador cryptocurrencies
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Proyecto de tienda online con React, Redux para gestión del estado y flujo de datos en la aplicación, Redux Thunk para peticiones
-                  asíncronas a una DB en Firebase y Strapi para la pasarela de pago.
+                  Proyecto React con conexión a una API pública de datos de cryptomonedas para visualizar precio y volumen de comercio.
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
-                  <Link href="https://github.com/Selphyz/tienda-graphql-react/" target="_blank">
+                  <Link href="https://github.com/Selphyz/criptoshow-react" target="_blank">
                     Código Fuente
                   </Link>
                 </Button>
