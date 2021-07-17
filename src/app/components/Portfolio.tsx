@@ -88,11 +88,6 @@ const Portfolio = () => {
                     Código Fuente
                   </Link>
                 </Button>
-                <Button size="small" color="primary">
-                  <Link href="https://tienda-react.netlify.app/" target="_blank">
-                    Demo
-                  </Link>
-                </Button>
               </CardActions>
             </CardActionArea>
           </Card>
